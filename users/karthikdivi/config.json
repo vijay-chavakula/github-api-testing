@@ -1,7 +1,7 @@
 {
 	"user": "karthikdivi",
 	"active": true,
-	"statusChecks ": [{
+	"statusChecks": [{
 		"name": "qa-meru01 web ui",
 		"active": true,
 		"statusCheckType": "HTML",

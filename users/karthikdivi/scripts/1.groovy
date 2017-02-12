@@ -1,5 +1,9 @@
 hit 'http://lumtest.com/myip.json'
 json(response){
-def ip = text '$.ip'
-}  
-
+    // parsing
+    def ip = text '$.ip'
+    if(ip){
+        result.failed = true
+        result.message = 'lumtest is not giving IP'
+    }
+}

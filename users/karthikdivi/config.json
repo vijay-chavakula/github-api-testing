@@ -5,7 +5,7 @@
 		"name": "qa-meru01 web ui",
 		"active": true,
 		"statusCheckType": "HTML",
-		"interval": "10000",
+		"interval": 10000,
 		"script": "1.groovy",
 		"notifiers": [
 			"karthikdivi-hipchat",
@@ -15,7 +15,7 @@
 		"name": "qa-meru02 web ui",
 		"active": true,
 		"statusCheckType": "HTML",
-		"interval": "10000",
+		"interval": 10000,
 		"script": "1.groovy",
 		"notifiers": [
 			"idc-hipchat",

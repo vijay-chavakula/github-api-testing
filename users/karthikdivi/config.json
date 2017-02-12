@@ -1,2 +1,14 @@
-
-NA
+{
+	"user": "karthikdivi",
+	"active": true,
+	"statusChecks ": [{
+		"active": true,
+		"statusCheckType": "HTML",
+		"interval": "10000",
+		"script": "1.groovy",
+		"notifiers": [
+			"karthikdivi-hipchat",
+			"karthikdivi-email"
+		]
+	}]
+}

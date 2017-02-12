@@ -2,6 +2,7 @@
 	"user": "karthikdivi",
 	"active": true,
 	"statusChecks ": [{
+		"name": "qa-meru01 web ui",
 		"active": true,
 		"statusCheckType": "HTML",
 		"interval": "10000",
@@ -10,5 +11,30 @@
 			"karthikdivi-hipchat",
 			"karthikdivi-email"
 		]
-	}]
+	}, {
+		"name": "qa-meru02 web ui",
+		"active": true,
+		"statusCheckType": "HTML",
+		"interval": "10000",
+		"script": "1.groovy",
+		"notifiers": [
+			"idc-hipchat",
+			"karthikdivi-email"
+		]
+	}],
+	"notifierConfig": {
+		"karthikdivi-hipchat": {
+			"type": "hipchat",
+			"properties": {
+				"sender": "E2ETfR2yYlTvxzKe40PvJ0aKeLVaRy1Yrr1ToeT7Z",
+				"rooms": [1023018]
+			}
+		},
+		"karthikdivi-email": {
+			"type": "email",
+			"properties": {
+				"email": "karthikdivi@gmail.com"
+			}
+		}
+	}
 }

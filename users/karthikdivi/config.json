@@ -2,7 +2,7 @@
 	"user": "karthikdivi",
 	"active": true,
 	"statusChecks": [{
-		"name": "qa-meru01 web ui",
+		"name": "lumtest.com test",
 		"active": true,
 		"statusCheckType": "HTML",
 		"interval": 10000,
@@ -12,11 +12,11 @@
 			"karthikdivi-email"
 		]
 	}, {
-		"name": "qa-meru02 web ui",
+		"name": "yelp.com test",
 		"active": true,
 		"statusCheckType": "HTML",
-		"interval": 10000,
-		"script": "1.groovy",
+		"interval": 60000,
+		"script": "2.groovy",
 		"notifiers": [
 			"idc-hipchat",
 			"karthikdivi-email"

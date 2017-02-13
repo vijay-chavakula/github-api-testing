@@ -12,7 +12,7 @@
 			"karthikdivi-email"
 		]
 	}, {
-		"name": "yelp.com test",
+		"name": "rvparkreviews.com test",
 		"active": true,
 		"statusCheckType": "HTML",
 		"interval": 10000,

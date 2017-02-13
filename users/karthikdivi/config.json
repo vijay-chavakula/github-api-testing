@@ -36,5 +36,11 @@
 				"email": "karthikdivi@gmail.com"
 			}
 		}
+		"vijay-email": {
+			"type": "email",
+			"properties": {
+				"email": "vchavakula@reputation.com"
+			}
+		}
 	}
 }

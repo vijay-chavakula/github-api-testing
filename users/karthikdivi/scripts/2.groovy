@@ -1,10 +1,9 @@
-hit 'https://www.yelp.com'
+hit 'http://www.rvparkreviews.com/'
 html(response){
     // parsing
-    def loginButton = text '#header-log-in'
-    println ip
-    if(!loginButton){
+    def logo = text '.navbar-brand'
+    if(!logo){
         result.failed = true
-        result.message = 'Homepage has some problem'
+        result.message = 'RV Park Reviews is down'
     }
 }

@@ -3,7 +3,7 @@
 	"active": true,
 	"statusChecks": [{
 		"name": "lumtest.com test",
-		"active": true,
+		"active": false,
 		"statusCheckType": "HTML",
 		"interval": 60000,
 		"script": "1.groovy",

@@ -5,7 +5,7 @@
 		"name": "lumtest.com test",
 		"active": true,
 		"statusCheckType": "HTML",
-		"interval": 10000,
+		"interval": 60000,
 		"script": "1.groovy",
 		"notifiers": [
 			"karthikdivi-hipchat",
@@ -15,7 +15,7 @@
 		"name": "yelp.com test",
 		"active": true,
 		"statusCheckType": "HTML",
-		"interval": 60000,
+		"interval": 10000,
 		"script": "2.groovy",
 		"notifiers": [
 			"idc-hipchat",
